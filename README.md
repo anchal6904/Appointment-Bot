@@ -28,7 +28,7 @@ This project is a conversational AI agent that helps users book appointments via
 ```bash
 python -m uvicorn main:app --reload
 ```
-The backend will run at `http://localhost:8000`.
+The backend will run at `https://appointment-bot-ljuz.onrender.com`.
 
 ### 2. Start the Frontend (Streamlit)
 ```bash
