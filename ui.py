@@ -11,7 +11,7 @@ user_input = st.chat_input("Ask me to book a meeting...")
 
 if user_input:
     st.session_state.chat.append(("user", user_input))
-    response = requests.post("https://appointment-bot-1.onrender.com/chat", json={"message": user_input})
+    response = requests.post("https://appointment-bot-2.onrender.com/chat", json={"message": user_input})
     reply = response.json()["response"]
     st.session_state.chat.append(("bot", reply))
 
