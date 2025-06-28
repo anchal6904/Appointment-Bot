@@ -15,14 +15,6 @@ app.add_middleware(
 )
 
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Or specify your frontend domain
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
 @app.post("/chat")
 async def chat(request: Request):
     data = await request.json()
