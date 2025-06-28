@@ -55,6 +55,3 @@ Edit `default_slots` in `calender_utils.py` to change the available times (defau
 ## Notes
 - The agent uses in-memory and SQLite logic for demonstration. No external calendar integration is included.
 - For production, add authentication and more robust error handling.
-
----
-Feel free to extend this project with more features or integrate with real calendar APIs! 
